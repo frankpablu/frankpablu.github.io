@@ -1,2 +1,2 @@
 # My Portfolio
- My own project using HTML, CSS and JS
+Portfolio using HTML, CSS and JS
