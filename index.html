@@ -1,75 +1,65 @@
 <!DOCTYPE html>
 <html lang="en-US">
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="crossorigin"/>
     <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&amp;display=swap"/>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&amp;display=swap" media="print" onload="this.media='all'"/>
-    <noscript>
-      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&amp;display=swap"/>
-    </noscript>
     <link href="css/bootstrap.min.css?ver=1.2.0" rel="stylesheet">
-    <link href="css/font-awesome/css/all.min.css?ver=1.2.0" rel="stylesheet">
+    
     <link href="assets/css/style.css" rel="stylesheet">
     <title>Franklin S. Pablú - Frontend Developer</title>
-  </head>
-  <body id="top"><div class="site-wrapper">
-   <div class="site-wrapper-inner">
-    <div class="cover-container">
-      <div class="masthead clearfix">
-        <div class="inner">
-          <h3 class="masthead-brand">Franklin S. Pablú</h3>
-          <nav class="nav nav-masthead">
-            <a class="nav-link nav-social" href="https://www.facebook.com/franklinspablu" title="Facebook"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
-            <a class="nav-link nav-social" href="https://twitter.com/franklinspablu" title="Twitter"><i class="fab fa-twitter" aria-hidden="true"></i></a>
-            <a class="nav-link nav-social" href="https://www.youtube.com/channel/UCU9_0aRGcTwr4b0skiAweeQ" title="Youtube"><i class="fab fa-youtube" aria-hidden="true"></i></a>
-            <a class="nav-link nav-social" href="https://www.instagram.com/franklinspablu/" title="Instagram"><i class="fab fa-instagram" aria-hidden="true"></i></a>
-          </nav>
-        </div>
-      </div>      
-      <div class="inner cover">
-        <h1 class="cover-heading">Sitio Web en Construcción</h1>
-        <p class="lead cover-copy">Este será mi portafolio utilizando HTML, CSS y Javascript</p>
-        <p class="lead"><button type="button" class="btn btn-lg btn-default btn-notify" data-toggle="modal" data-target="#subscribeModal">Notificame</button></p>
-      </div>
-      </div>
-      <div class="modal fade" id="subscribeModal" tabindex="-1" role="dialog" aria-labelledby="subscribeModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="subscribeModalLabel">Reciba notificaciones sobre el lanzamiento:</h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body">
-              <form>
-                <div class="form-group">
-                  <label for="recipient-name" class="form-control-label">Ingrese su correo electrónico para recibir una notificación cuando esté lista</label>
-                  <input type="text" class="form-control" id="recipient-name" placeholder="nombre@ejemplo.com">
+</head>
+
+<body>
+    <!-- SECCION INICIO -->
+    <seccion id="inicio">
+      <div class="contenido">
+          <header>
+              <div class="contenido-header">
+                <h1><FP></h1>
+                <nav id="nav" class="">
+                  <ul id="links">
+                      <li><a href="#inicio" class="seleccionado">INICIO</a></li>
+                      <li><a href="#sobremi">SOBRE MI</a></li>
+                      <li><a href="#servicios">SERVICIOS</a></li>
+                      <li><a href="#portfolio">PORTFOLIO</a></li>
+                      <li><a href="#contacto">CONTACTO</a></li>
+                  </ul>
+                </nav>
+
+                <!-- Iconos del menu responsive-->
+                <div id="icono-nav">
+                     <i class="fa-solid fa-bars"></i>
                 </div>
-              </form>
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-default">Subscribirse</button>
-            </div>
+                
+                <!-- Iconos de las redes sociales-->
+                <div class="redes">
+                  <a href="https://www.youtube.com/channel/UCU9_0aRGcTwr4b0skiAweeQ"><i class="fa-brands fa-youtube"></i></a>
+                  <a href="https://www.facebook.com/franklinspablu"><i class="fa-brands fa-facebook"></i></a>
+                  <a href="https://www.instagram.com/franklinspablu/"><i class="fa-brands fa-instagram-square"></i></a>
+                  <a href="https://twitter.com/franklinspablu"><i class="fa-brands fa-twitter"></i></a>
+                  <a href="https://github.com/franklinspablu"><i class="fa-brands fa-github"></i></a>
+                </div>
+              </div>
+          </header>
+          <div class="presentacion">
+            <p class="bienvenida">Bienvenidos</p>
+            <h2>Soy <span>Franklin S. Pablú</span>, Frontend Developer</h2>
+            <p class="descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus doloribus vel accusamus deserunt eveniet dignissimos asperiores a consequatur nihil quam culpa hic pariatur nostrum, est inventore nulla illo consectetur minima!</p>
           </div>
-        </div>
-    </div>
-  </div>
-  <div>
+
+
+      </div>
+    </section>   
   <footer>
     <div class="footer">
     <p>&copy; 2022 <a>franklinspablu</a><a> - Todos los derechos reservados.</a></p>
     </div>
-    <div class="social">
-      <a href="https://www.facebook.com/franklinspablu" title="Facebook"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
-      <a href="https://twitter.com/franklinspablu" title="Twitter"><i class="fab fa-twitter" aria-hidden="true"></i></a>
-      <a href="https://www.youtube.com/channel/UCU9_0aRGcTwr4b0skiAweeQ" title="Youtube"><i class="fab fa-youtube" aria-hidden="true"></i></a>
-      <a href="https://www.instagram.com/franklinspablu/" title="Instagram"><i class="fab fa-instagram" aria-hidden="true"></i></a>
-    </div>
+    
   </footer>
 </div>
 </div>
