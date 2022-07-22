@@ -1,7 +1,10 @@
-# Portafolio 
-Este proyecto es mi portafolio profesional mostrando mis conocimientos y proyectos realizados
+# Portfolio 
+This project is my professional portfolio showing my knowledge and completed projects
 
-## Tecnologías
+## Technologies
 * HTML5 
 * CSS3 
 * JavaScript
+
+## Deploy
+https://franklinspablu.github.io/
