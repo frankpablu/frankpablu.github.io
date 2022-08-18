@@ -1,77 +1,554 @@
 <!DOCTYPE html>
-<html lang="en-US">
-<head>
-    <meta name="description" content="Soy un estudiante de <strong>Ingenieria de Sistemas y Computación</strong> de la Universidad Tecnológica de Panamá que le llama la atención el desarrollo frontend. mi frase favorita es <em>Cada día podemos aprender algo nuevo</em>">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="crossorigin"/>
-    <link href="assets/css/style.css" rel="stylesheet">
-    <title>Frontend Developer - Franklin S. Pablú</title>
-</head>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Full Stack developer, here you will find information about the projects I have done."
+    />
+    <meta
+      property="og:description"
+      content="Full Stack developer, here you will find information about the projects I have done. "
+    />
+    <meta property="og:title" content="Jose Estrada | Full Stack Developer" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:site_name"
+      content="Jose Estrada | Full Stack Developer"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="apple-touch-icon" href="./assets/logo.png" />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="./assets/logo-120x120.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/logo-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./assets/logo-16x16.png"
+    />
+    <link rel="shortcut icon" type="image/x-icon" href="./assets/favicon.ico" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="media.css" media="(max-width: 991px)" />
+    <script
+      src="https://kit.fontawesome.com/7b5fb2de65.js"
+      crossorigin="anonymous"
+      async
+    ></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>Jose Estrada / Full Stack Developer</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="container">
+        <div class="navbar__logo">
+          <p class="navbar__title">
+            <a href="#">JE</a>
+          </p>
+        </div>
+        <div class="navbar__menu">
+          <i class="fas fa-bars"></i>
+        </div>
+        <ul class="navbar__links">
+          <li class="navbar__link active" data-ref="home">
+            <a href="#home">Home</a>
+          </li>
+          <li class="navbar__link" data-ref="about">
+            <a href="#about">About</a>
+          </li>
+          <li class="navbar__link" data-ref="services">
+            <a href="#services">Services</a>
+          </li>
+          <li class="navbar__link" data-ref="portfolio">
+            <a href="#portfolio">Portfolio</a>
+          </li>
+          <li class="navbar__link" data-ref="contact">
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <section id="home" class="home">
+      <div class="home__background"></div>
+      <picture>
+        <source type="image/webp" srcset="./assets/profile.webp" />
+        <source type="image/jpeg" srcset="./assets/profile.jpg" />
+        <img class="home__profile" alt="picture profile" />
+      </picture>
+      <div class="home__description">
+        <span class="home__title--primary">Hi!</span>
+        <h1 class="home__title">I'm Joseph Estrada</h1>
+        <span class="home__title--secondary">Full Stack Developer</span>
+      </div>
+    </section>
+    <section id="about">
+      <div class="container">
+        <h2 class="section__title">About me</h2>
+        <div class="about__grid">
+          <div class="about__description">
+            <h2>I'm Joseph Estrada, Web Developer / Engineering Physicst.</h2>
+            <p>
+              I am a Full Stack developer with experience building websites and web applications. I specialize in JavaScript, and have professional experience working with React.
+            </p>
 
-<body>
-  <!-- SECCION INICIO -->
-  <seccion id="inicio">
-      <div class="contenido">
-          <header>
-              <div class="contenido-header">
-                <h1>[FP]</h1>
-                <nav id="nav" class="">
-                  <ul id="links">
-                      <li><a href="#inicio" class="seleccionado">INICIO</a></li>
-                      <li><a href="#sobremi">SOBRE MI</a></li>
-                      <li><a href="#servicios">SERVICIOS</a></li>
-                      <li><a href="#portfolio">PORTFOLIO</a></li>
-                      <li><a href="#contacto">CONTACTO</a></li>
-                  </ul>
-                </nav>
-                <!-- Iconos del menu responsive-->
-                <div id="icono-nav">
-                     <i class="fa-solid fa-bars"></i>
-                </div> 
-                <!-- Iconos de las redes sociales-->
-                <div class="redes">
-                  <a href="https://www.youtube.com/channel/UCU9_0aRGcTwr4b0skiAweeQ"><i class="fa-brands fa-youtube"></i></a>
-                  <a href="https://www.facebook.com/franklinspablu"><i class="fa-brands fa-facebook"></i></a>
-                  <a href="https://www.instagram.com/franklinspablu/"><i class="fa-brands fa-instagram"></i></a>
-                  <a href="https://twitter.com/franklinspablu"><i class="fa-brands fa-twitter"></i></a>
-                  <a href="https://github.com/franklinspablu"><i class="fa-brands fa-github"></i></a>
-                </div>
-              </div>
-          </header>
-          <div class="presentacion">
-            <p class="bienvenida">Bienvenidos</p>
-            <h2>Soy <span>Franklin S. Pablú</span>, Frontend Developer</h2>
-            <p class="descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus doloribus vel accusamus deserunt eveniet dignissimos asperiores a consequatur nihil quam culpa hic pariatur nostrum, est inventore nulla illo consectetur minima!</p>
-            <a href="portfolio">Ir a Portafolio</a>
+            <p>
+              I am always seeking to improve my skills and continue growing professionally in order to make valuable contributions at the working group I am part of. Therefore I use the modern development workflow with CodeStream in order to increase productivity and improve communication inside our development team.
+            </p>
+            <a
+              class="button--cta"
+              href="./assets/Jose Estrada CV.pdf"
+              download="Jose Estrada CV"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="fas fa-file-download"></i>Download CV
+            </a>
           </div>
-
-
+          <div class="about__skills">
+            <div class="skill__title">
+              <h2>My skills</h2>
+            </div>
+            <div class="skill__item">
+              <img src="https://img.icons8.com/color/48/000000/mongodb.png" alt="MongoDB icon"/>
+              <div class="skill__name">MongoDB</div>
+            </div>
+            <div class="skill__item">
+              <img src="/assets/expressjs.svg" alt="Express.js icon"/>
+              <div class="skill__name">Express.js</div>
+            </div>
+            <div class="skill__item">
+              <i class="fab fa-node"></i>
+              <div class="skill__name">Node.js</div>
+            </div>
+            <div class="skill__item">
+              <img src="/assets/cib-next-js.svg" alt="Next.js icon"/>
+              <div class="skill__name">Next.js</div>
+            </div>
+            <div class="skill__item">
+              <i class="fab fa-react"></i>
+              <div class="skill__name">React.js</div>
+            </div>
+            <div class="skill__item">
+              <i class="fab fa-js"></i>
+              <div class="skill__name">JavaScript</div>
+            </div>
+            <div class="skill__item">
+              <img src="/assets/tailwind-css.svg" alt="Tailwind icon"/>
+              <div class="skill__name">Tailwind</div>
+            </div>
+            <div class="skill__item">
+              <i class="fab fa-github"></i>
+              <div class="skill__name">GitHub</div>
+            </div>
+            <div class="skill__item">
+              <i class="fab fa-git-alt"></i>
+              <div class="skill__name">GIT</div>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
-    
-    <section id="sobremi">
-      <div class="contenedor-foto">
-        <img src="assets/img/franklin_pablu.jpg" alt="Foto de Franklin Pablú">
-      </div>
-      <div class="sobremi">
-        <p class="titulo-seccion">Sobre Mi</p>
-        <h2>Hola, soy <span>Franklin Pablú</span></h2>
-        <h3>Desarrollador Web</h3>
-        <p>Me especializo en el desarrollo web con HTML5, CSS3 y Javascript, soy estudiante de la Universidad Tecnológica de Panamá.</p>
-        <p>Estoy aprendiendo ES6+ y ReactJS</p>
-        <a href="#">Descargar CV</a>
+
+    <section id="services">
+      <div class="container">
+        <h2 class="section__title">Services</h2>
+        <h3 class="section__subtitle">Services I offer to my clients</h3>
+        <div class="services__grid">
+          <div class="services__item">
+            <i class="fas fa-mobile-alt"></i>
+            <h3>Fully Responsive</h3>
+            <p>
+              Your site will display properly on any device, including desktop
+              computers, tablets and mobile phones.
+            </p>
+          </div>
+          <div class="services__item">
+            <i class="fas fa-pencil-ruler"></i>
+            <h3>Creative Design</h3>
+            <p>
+              A good and attractive web design helps you keep your leads on your
+              site, which is the digital face of your business.
+            </p>
+          </div>
+          <div class="services__item">
+            <i class="fas fa-code"></i>
+            <h3>Development</h3>
+            <p>
+              I know the importance of web design and can help you create a
+              website you’ll love.
+            </p>
+          </div>
+          <div class="services__item">
+            <i class="fas fa-thumbs-up"></i>
+            <h3>Social Media Integration</h3>
+            <p>
+              There are a lot of social platforms out there, and you should
+              promote your presence on them on your website
+            </p>
+          </div>
+          <div class="services__item">
+            <i class="fas fa-tachometer-alt"></i>
+            <h3>Performance</h3>
+            <p>
+              Retaining users is crucial to improving conversions.
+              High-performing sites engage and retain users
+            </p>
+          </div>
+          <div class="services__item">
+            <i class="fas fa-crosshairs"></i>
+            <h3>SEO</h3>
+            <p>
+              I will optimize your site with intelligent Search Engine
+              Optimization strategy to generate leads.
+            </p>
+          </div>
+        </div>
       </div>
     </section>
-  <footer>
-    <div class="footer">
-    <p>&copy; 2022 <a>franklinspablu</a><a> - Todos los derechos reservados.</a></p>
-    </div> 
-  </footer>
-</div>
-</div>
-   <script src="assets/scripts/script.js"></script>
+    <section id="portfolio">
+      <div class="container">
+        <h2 class="section__title">Portfolio</h2>
+        <h3 class="section__subtitle">Here you can see the projects I have worked on.</h3>
+        <div class="portfolio__grid">
+          <div class="portfolio__item">
+            <picture>
+              <source type="image/jpeg" srcset="./projects/Avo-store.jfif" />
+              <img class="portfolio__img" alt="portfolio item" />
+            </picture>
+            <div class="portfolio__description">
+              <h3 class="portfolio__description--title">Avo-Store</h3>
+              <p class="portfolio__description--text">
+                Web Application: Next.js, Tailwind.
+              </p>
+              <div class="buttons__container">
+                <a
+                  class="button"
+                  href="https://avocado-store-jgestradam-nd4yxxllv-jgestradam.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fas fa-globe-americas"></i> Website
+                </a>
+                <a
+                  class="button"
+                  href="https://github.com/jgestradam/Avo-store"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fab fa-github"></i> Repository
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio__item">
+            <picture>
+              <source type="image/jpeg" srcset="./projects/Petgram.jfif" />
+              <img class="portfolio__img" alt="portfolio item" />
+            </picture>
+            <div class="portfolio__description">
+              <h3 class="portfolio__description--title">Petgram</h3>
+              <p class="portfolio__description--text">
+                Web Application: REACT
+              </p>
+              <div class="buttons__container">
+                <a
+                  class="button"
+                  href="https://petgram-jgestradam.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fas fa-globe-americas"></i> Website
+                </a>
+                <a
+                  class="button"
+                  href="https://github.com/jgestradam/petgram"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fab fa-github"></i> Repository
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio__item">
+            <picture>
+              <source type="image/jpeg" srcset="./projects/Platzi-video.jfif" />
+              <img class="portfolio__img" alt="portfolio item" />
+            </picture>
+            <div class="portfolio__description">
+              <h3 class="portfolio__description--title">Platzi Video</h3>
+              <p class="portfolio__description--text">
+                Web Application: REACT, JS, SCSS
+              </p>
+              <div class="buttons__container">
+                <a
+                  class="button"
+                  href="https://platzi-video-react-app.netlify.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fas fa-globe-americas"></i> Website
+                </a>
+                <a
+                  class="button"
+                  href="https://github.com/jgestradam/Platzi-video"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fab fa-github"></i> Repository
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio__item">
+            <picture>
+              <source type="image/jpeg" srcset="./projects/RickandMorty.jfif" />
+              <img class="portfolio__img" alt="portfolio item" />
+            </picture>
+            <div class="portfolio__description">
+              <h3 class="portfolio__description--title">Rick and Morty API</h3>
+              <p class="portfolio__description--text">
+                Web Application: JS
+              </p>
+              <div class="buttons__container">
+                <a
+                  class="button"
+                  href="https://jgestradam.github.io/rick-and-morty-spa-vanilla/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fas fa-globe-americas"></i> Website
+                </a>
+                <a
+                  class="button"
+                  href="https://github.com/jgestradam/rick-and-morty-spa-vanilla"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fab fa-github"></i> Repository
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio__item">
+            <picture>
+              <source type="image/jpeg" srcset="./projects/Escuela-de-la-verdad-page-min.webp" />
+              <img class="portfolio__img" alt="portfolio item" />
+            </picture>
+            <div class="portfolio__description">
+              <h3 class="portfolio__description--title">Escuela de la verdad page</h3>
+              <p class="portfolio__description--text">
+                Landing Page: JS
+              </p>
+              <div class="buttons__container">
+                <a
+                  class="button"
+                  href="https://jgestradam.github.io/Escuela-de-la-verdad/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fas fa-globe-americas"></i> Website
+                </a>
+                <a
+                  class="button"
+                  href="https://github.com/jgestradam/Escuela-de-la-verdad"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fab fa-github"></i> Repository
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio__item">
+            <picture>
+              <source type="image/jpeg" srcset="./projects/Simon.jfif" />
+              <img class="portfolio__img" alt="portfolio item" />
+            </picture>
+            <div class="portfolio__description">
+              <h3 class="portfolio__description--title">Simon says</h3>
+              <p class="portfolio__description--text">
+                Web Application: JS
+              </p>
+              <div class="buttons__container">
+                <a
+                  class="button"
+                  href="https://jgestradam.github.io/Simon-says-game/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fas fa-globe-americas"></i> Website
+                </a>
+                <a
+                  class="button"
+                  href="https://github.com/jgestradam/Simon-says-game"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fab fa-github"></i> Repository
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio__item">
+            <picture>
+              <source type="image/jpeg" srcset="./projects/Blog.jfif" />
+              <img class="portfolio__img" alt="portfolio item" />
+            </picture>
+            <div class="portfolio__description">
+              <h3 class="portfolio__description--title">Blog</h3>
+              <p class="portfolio__description--text">
+                Landing Page: REACT
+              </p>
+              <div class="buttons__container">
+                <a
+                  class="button"
+                  href="https://simple-htmlblog-react-app.netlify.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fas fa-globe-americas"></i> Website
+                </a>
+                <a
+                  class="button"
+                  href="https://github.com/jgestradam/blog"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fab fa-github"></i> Repository
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio__item">
+            <picture>
+              <source type="image/jpeg" srcset="./projects/Batatabit-first-mobile.jfif" />
+              <img class="portfolio__img" alt="portfolio item" />
+            </picture>
+            <div class="portfolio__description">
+              <h3 class="portfolio__description--title">Batatabit</h3>
+              <p class="portfolio__description--text">Website: CSS, HTML</p>
+              <div class="buttons__container">
+                <a
+                  class="button"
+                  href="https://jgestradam.github.io/Batatabit-first-mobile/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fas fa-globe-americas"></i> Website
+                </a>
+                <a
+                  class="button"
+                  href="https://github.com/jgestradam/Batatabit-first-mobile"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fab fa-github"></i> Repository
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio__item">
+            <picture>
+              <source type="image/jpeg" srcset="./projects/CSS-Layout.jfif" />
+              <img class="portfolio__img" alt="portfolio item" />
+            </picture>
+            <div class="portfolio__description">
+              <h3 class="portfolio__description--title">CSS-Layout</h3>
+              <p class="portfolio__description--text">
+                Landing Page: CSS
+              </p>
+              <div class="buttons__container">
+                <a
+                  class="button"
+                  href="https://jgestradam.github.io/CSS-Layout/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fas fa-globe-americas"></i> Website
+                </a>
+                <a
+                  class="button"
+                  href="https://github.com/jgestradam/CSS-Layout"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fab fa-github"></i> Repository
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <div class="container">
+        <h2 class="section__title">Contact</h2>
+        <h3 class="section__subtitle">
+          Contact me if you want us to work together.
+        </h3>
+        <div class="contact__grid">
+          <a
+            href="mailto:gregoesme@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div class="contact__item">
+
+              <i class="far fa-envelope"></i>
+              <p>Mail Me</p>
+            </div>
+          </a>
+          <a
+            href="https://github.com/jgestradam"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div class="contact__item">
+              <i class="fab fa-github"></i>
+              <p>Follow Me</p>
+            </div>
+          </a>
+          <a
+            href="https://twitter.com/jgestradam"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div class="contact__item">
+              <i class="fab fa-twitter"></i>
+              <p>Follow Me</p>
+            </div>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/jgestradam/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div class="contact__item">
+              <i class="fab fa-linkedin-in"></i>
+              <p>Contact Me</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <p>
+          Copyright © 2021. <a href="#">@jgestradam</a> <br />
+          All Rights Reserved
+        </p>
+      </div>
+    </footer>
+    <script async src="./index.js"></script>
   </body>
 </html>
