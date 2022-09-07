@@ -7,4 +7,4 @@ This project is my professional portfolio showing my knowledge and completed pro
 * JavaScript
 
 ## Deploy
-https://franklinspablu.github.io/
+https://franklinspablu.netlify.app/
