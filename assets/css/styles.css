@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700");
+
 
 * {
   margin: 0;
@@ -76,7 +76,7 @@ section {
 }
 
 .navbar__title::after {
-  content: "/>";
+  content: ">";
   color: var(--blue);
 }
 
@@ -119,7 +119,7 @@ section {
 
 .home__background {
   background-color: #8e8e8e;
-  background-image: url(./assets/bg.webp);
+  background-image: url(/assets/bg.webp);
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
