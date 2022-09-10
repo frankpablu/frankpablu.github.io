@@ -4,14 +4,14 @@
   box-sizing: border-box;
 }
 :root{
-  --white: #ffffff;
-  --grey: #414141;
-  --red: 	#d62d20;
-  --amarillo: #ffa700;
+  --white:#ffffff;
+  --grey:#414141;
+  --red:#d62d20;
+  --amarillo:#ffa700;
   --blue:#3367d6;
   --orange:#e34c26;
   --green:#008744;
-  --blueReact: #61DBFB;
+  --blueReact:#61DBFB;
 }
 
 a {
