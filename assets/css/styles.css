@@ -68,13 +68,8 @@ section {
   font-size: 24px;
 }
 
-.navbar__title::before {
-  content: "<";
-  color:var(--blue);
-}
-
 .navbar__title::after {
-  content: ">";
+  content: ";";
   color: var(--blue);
 }
 
@@ -464,7 +459,7 @@ section {
 }
 
 .footer {
-  color: var(--grey);
+  color: #8e8e8e;
   background-color: black;
   padding: 30px;
   text-align: center;
