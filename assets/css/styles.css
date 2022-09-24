@@ -7,7 +7,7 @@
   --white:#ffffff;
   --grey:#636363;
   --red:#d62d20;
-  --amarillo:#ffa700;
+  --yellow:#ffa700;
   --blue:#3367d6;
   --orange:#e34c26;
   --green:#008744;
@@ -290,7 +290,7 @@ section {
 }
 
 .fa-tachometer-alt{
-  color: var(--amarillo);
+  color: var(--yellow);
 }
 
 .fa-crosshairs{
