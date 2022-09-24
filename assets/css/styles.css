@@ -5,7 +5,7 @@
 }
 :root{
   --white:#ffffff;
-  --grey:#414141;
+  --grey:#636363;
   --red:#d62d20;
   --amarillo:#ffa700;
   --blue:#3367d6;
@@ -465,14 +465,14 @@ section {
 
 .footer {
   color: var(--grey);
-  background-color: rgba(245,245,245,0.6);
+  background-color: black;
   padding: 30px;
   text-align: center;
   font-size: 14px;
 }
 
 .footer a {
-  color: var(--grey);
+  color: var(--white);
 }
 
 .footer a:hover {
