@@ -182,6 +182,12 @@ section {
   margin: 20px 0;
 }
 
+.quote-frank {
+  margin: 15px;
+  font-size: 1em;
+  
+}
+
 .about__skills {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
