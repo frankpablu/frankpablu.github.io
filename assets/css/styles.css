@@ -68,11 +68,6 @@ section {
   font-size: 24px;
 }
 
-.navbar__title::after {
-  content: ";";
-  color: var(--blue);
-}
-
 .navbar__links {
   list-style: none;
   display: flex;
