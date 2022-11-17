@@ -72,10 +72,6 @@ section {
   filter: invert(35%) sepia(86%) saturate(785%) hue-rotate(192deg) brightness(91%) contrast(101%);
 }
 
-.navbar__title {
-  font-size: 24px;
-}
-
 .navbar__links {
   list-style: none;
   display: flex;
