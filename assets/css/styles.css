@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 :root{
   --white:#ffffff;
   --grey:#636363;
@@ -179,12 +180,6 @@ section {
 .about__description h2 {
   color: var(--grey);
   margin: 20px 0;
-}
-
-.quote-frank {
-  margin: 15px;
-  font-size: 1em;
-  
 }
 
 .about__skills {
