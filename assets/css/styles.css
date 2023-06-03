@@ -418,19 +418,23 @@ section {
 }
 
 .fa-envelope{
-  color: var(--red);
+  color: #c71610;
 }
 
 .fa-github{
-  color: black;
+  color: #333;
 }
 
 .fa-twitter{
-  color: #00acee;
+  color: #1da1f2;
+}
+
+.fa-instagram{
+  color: #DD2A7B;
 }
 
 .fa-linkedin-in{
-  color:#0e76a8  ;
+  color:#0072b1  ;
 }
 
 .contact__item i {
@@ -447,6 +451,10 @@ section {
   color: var(--grey);
 }
 .fa-twitter:hover {
+  transition: all 0.3s;
+  color: var(--grey);
+}
+.fa-instagram:hover {
   transition: all 0.3s;
   color: var(--grey);
 }
