@@ -383,7 +383,7 @@ section {
 }
 
 .button--cta {
-  background: var(--blue);
+  background: var(--blueFrank);
   color: var(--white);
   padding: 5px 30px;
   display: inline-block;
