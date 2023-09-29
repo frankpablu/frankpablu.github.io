@@ -13,6 +13,7 @@
   --orange:#e34c26;
   --green:#008744;
   --blueReact:#61DBFB;
+  --blueFrank: #3367d6;
 }
 
 a {
@@ -208,6 +209,7 @@ section {
   max-height: 50px;
   max-width: 100px;
 }
+
 .fa-node{
   color: #3C873A;
 }
@@ -231,7 +233,6 @@ section {
 .fa-react{
   color: var(--blueReact);
 }
-
 
 .skill__name {
   font-size: 16px;
@@ -382,7 +383,6 @@ section {
 }
 
 .button--cta {
-
   background: var(--blue);
   color: var(--white);
   padding: 5px 30px;
@@ -401,6 +401,7 @@ section {
   background: var(--grey);
   color: white;
 }
+
 .button .fa-github:before {
   color: white;
 }
@@ -425,8 +426,8 @@ section {
   color: #333;
 }
 
-.fa-twitter{
-  color: #1da1f2;
+.fa-facebook{
+  color: #0866FF;
 }
 
 .fa-instagram{
@@ -434,7 +435,7 @@ section {
 }
 
 .fa-linkedin-in{
-  color:#0072b1  ;
+  color:#0077B5;
 }
 
 .contact__item i {
@@ -446,22 +447,22 @@ section {
   transition: all 0.3s;
   color: var(--grey);
 }
-.fa-github:hover {
+
+.fa-facebook:hover {
   transition: all 0.3s;
   color: var(--grey);
 }
-.fa-twitter:hover {
-  transition: all 0.3s;
-  color: var(--grey);
-}
+
 .fa-instagram:hover {
   transition: all 0.3s;
   color: var(--grey);
 }
+
 .fa-linkedin-in:hover {
   transition: all 0.3s;
   color: var(--grey);
 }
+
 .active a {
   color: #f5f5f5;
 }
