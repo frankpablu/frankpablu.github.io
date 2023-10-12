@@ -6,6 +6,7 @@
 
 :root{
   --white:#ffffff;
+  --black:#000000;
   --grey:#636363;
   --red:#d62d20;
   --yellow:#ffa700;
@@ -419,7 +420,7 @@ section {
 }
 
 .fa-envelope{
-  color: var(--grey);
+  color: var(--black);
 }
 
 .fa-github{
@@ -427,15 +428,15 @@ section {
 }
 
 .fa-facebook{
-  color: var(--grey);
+  color: var(--black);
 }
 
 .fa-instagram{
-  color: var(--grey);
+  color: var(--black);
 }
 
 .fa-linkedin-in{
-  color: var(--grey);
+  color: var(--black);
 }
 
 .contact__item i {
