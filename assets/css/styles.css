@@ -419,7 +419,7 @@ section {
 }
 
 .fa-envelope{
-  color: #c71610;
+  color: var(--grey);
 }
 
 .fa-github{
@@ -427,15 +427,15 @@ section {
 }
 
 .fa-facebook{
-  color: #0866FF;
+  color: var(--grey);
 }
 
 .fa-instagram{
-  color: #DD2A7B;
+  color: var(--grey);
 }
 
 .fa-linkedin-in{
-  color:#0077B5;
+  color: var(--grey);
 }
 
 .contact__item i {
@@ -445,22 +445,22 @@ section {
 
 .fa-envelope:hover {
   transition: all 0.3s;
-  color: var(--grey);
+  color: #c71610;
 }
 
 .fa-facebook:hover {
   transition: all 0.3s;
-  color: var(--grey);
+  color: #0866FF;
 }
 
 .fa-instagram:hover {
   transition: all 0.3s;
-  color: var(--grey);
+  color: #DD2A7B;
 }
 
 .fa-linkedin-in:hover {
   transition: all 0.3s;
-  color: var(--grey);
+  color:#0077B5;
 }
 
 .active a {
